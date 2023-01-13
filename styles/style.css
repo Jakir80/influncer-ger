@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg: #aaaaaa;
+  --text: #3a3a3a;
+  --btn: #e02c6d;
+  --star: #fb8200;
+  --footer: #0a0826;
+}
