@@ -234,10 +234,6 @@ footer {
     justify-items: center;
     padding: 0;
   }
-  /* .online-platform {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  } */
   .online-platform {
     justify-content: center;
     gap: 15px;
