@@ -230,7 +230,7 @@ footer {
   gap: 16px;
   color: #ffffff;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) and (min-width: 375px) {
   .menu {
     flex-direction: column;
     justify-items: center;
@@ -242,9 +242,9 @@ footer {
   }
   .collection-photo {
     grid-template-columns: repeat(1, 1fr);
-
     padding-left: 0;
     margin-bottom: 5px;
+    align-items: center;
   }
   nav,
   .nav-img,
@@ -254,6 +254,10 @@ footer {
     text-align: center;
     max-width: auto;
     gap: 0;
+    display: inline-block;
+  }
+  .nav-img img {
+    max-width: 100%;
   }
   .line,
   .line-2 {
