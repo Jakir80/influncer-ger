@@ -230,7 +230,7 @@ footer {
   gap: 16px;
   color: #ffffff;
 }
-@media only screen and (max-width: 576px) and (min-width: 375px) {
+@media only screen and (max-width: 576px) {
   .menu {
     flex-direction: column;
     justify-items: center;
